@@ -1,0 +1,15 @@
+Item,Designator,Qty,Manufacturer,Manufacturer P/N,Description
+1,"C1, C2, C7, C8",4,Yageo,CC0603JRNPO9BN220,22pF ceramic cap (any is fine)
+2,"C3, C5",2,AVX Corporation,F981A106MMA,10uF tantalum cap (any is fine)
+3,"C4, C6, C9",3,KEMET,C0603C104Z3VACTU,0.1uF ceramic (any is fine)
+4,"D1, D2",2,Broadcom Limited,HSMC-C190,LED indicators
+5,"J1, J2",2,Sullins Connector Solutions,NPTC061KFXC-RC,"1x06 0.1"" pitch SMD header"
+6,J3,1,Sullins Connector Solutions,NPTC041KFXC-RC,"1x04 0.1"" pitch SMD header"
+7,"R1, R2, R3, R4, R5, R6, R7, R8, R9",9,Yageo,RC0603FR-0710KL,10K
+8,"R10, R11",2,Yageo,RC0603FR-07100RL,100ohm
+9,U1,1,Microchip Technology,MIC5205-3.3YM5-TR,MIC5205-3.3YM5 3.3v regulator
+10,U2,1,Sensirion AG,SHT31-DIS-B2.5KS,SHT31-DIS-B Temp/Humidity Sensor
+11,U3,1,Bosch Sensortec,BNO055,Bosch BNO055 IMU
+12,U4,1,Microchip Technology,ATMEGA328P-MU,ATMEGA328P-MU Microcontroller
+13,Y1,1,EPSON,FC-135 32.7680KA-A5,32.768kHz
+14,Y2,1,TXC CORPORATION,7A-16.000MAAE-T,16MHz Crystal
