@@ -1,32 +1,30 @@
-### Module positions - created on Wednesday, July 22, 2020 at 09:12:11 PM ###
+### Module positions - created on Friday, July 24, 2020 at 04:10:01 PM ###
 ### Printed by Pcbnew version kicad (5.1.6-0-10_14)
 ## Unit = mm, Angle = deg.
 ## Side : top
-# Ref     Val                Package                                             PosX       PosY       Rot  Side
-C1        22pF               C_0603_1608Metric                               160.0040   -68.3900  270.0000  top
-C2        22pF               C_0603_1608Metric                               160.0040   -64.5800   90.0000  top
-C3        10uF               C_0603_1608Metric                               141.1200   -69.3100   90.0000  top
-C4        0.1uF              C_0603_1608Metric                               166.7700   -65.4665  270.0000  top
-C5        10uF               C_0603_1608Metric                               144.6150   -65.9130  180.0000  top
-C6        0.1uF              C_0603_1608Metric                               149.8345   -66.8020  180.0000  top
-C7        22pF               C_0603_1608Metric                               146.8375   -58.9280  180.0000  top
-C8        22pF               C_0603_1608Metric                               137.6425   -59.6900    0.0000  top
-C9        0.1uF              C_0603_1608Metric                               162.9410   -69.7230  180.0000  top
-D1        LED_Small          LED_0603_1608Metric                             140.9445   -62.9920    0.0000  top
-D2        LED_Small          LED_0603_1608Metric                             132.5245   -70.8660    0.0000  top
-J1        Conn_01x06_Female  PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Right   177.0380   -67.4330   90.0000  top
-J2        Conn_01x06_Female  PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Right   131.0640   -64.7700   90.0000  top
-J3        Conn_01x04_Female  PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right   174.4980   -60.3210  270.0000  top
-R1        10K                R_0603_1608Metric                               159.5375   -61.9760  180.0000  top
-R2        10K                R_0603_1608Metric                               148.0565   -69.0880    0.0000  top
-R3        10K                R_0603_1608Metric                               155.2365   -66.0000  180.0000  top
-R4        10K                R_0603_1608Metric                               162.5345   -59.6900    0.0000  top
-R5        10K                R_0603_1608Metric                               163.0935   -67.8180    0.0000  top
-R6        10K                R_0603_1608Metric                               167.0290   -62.2700   90.0000  top
-R7        10K                R_0603_1608Metric                               166.8115   -68.0000    0.0000  top
-R8        10K                R_0603_1608Metric                               166.3115   -60.0000    0.0000  top
-R9        10K                R_0603_1608Metric                               157.7085   -63.5000    0.0000  top
-R10       100ohm             R_0603_1608Metric                               144.2975   -62.9920    0.0000  top
-R11       100ohm             R_0603_1608Metric                               136.5345   -70.8260  180.0000  top
-U1        MIC5205-3.3YM5     SOT-23-5                                        144.4220   -68.6750    0.0000  top
+# Ref     Val             Package                   PosX       PosY       Rot  Side
+C1        22pF            C_0603_1608Metric     160.0040   -68.3900  270.0000  top
+C2        22pF            C_0603_1608Metric     160.0040   -64.5800   90.0000  top
+C3        10uF            C_0603_1608Metric     141.1200   -69.3100   90.0000  top
+C4        0.1uF           C_0603_1608Metric     166.7700   -65.4665  270.0000  top
+C5        10uF            C_0603_1608Metric     144.6150   -65.9130  180.0000  top
+C6        0.1uF           C_0603_1608Metric     162.9410   -69.7230  180.0000  top
+C7        0.1uF           C_0603_1608Metric     149.8345   -66.8020  180.0000  top
+C8        22pF            C_0603_1608Metric     146.8375   -58.9280  180.0000  top
+C9        22pF            C_0603_1608Metric     138.6585   -60.4520    0.0000  top
+D1        LED_Small       LED_0603_1608Metric   134.0485   -71.1200    0.0000  top
+D2        LED_Small       LED_0603_1608Metric   140.9445   -62.9920    0.0000  top
+J1        95278-101A04LF  95278101A04LF         173.6720   -61.2140  270.0000  top
+R1        10K             R_0603_1608Metric     159.5375   -61.9760  180.0000  top
+R2        10K             R_0603_1608Metric     148.0565   -69.0880    0.0000  top
+R3        10K             R_0603_1608Metric     155.2365   -66.0000  180.0000  top
+R4        10K             R_0603_1608Metric     162.5345   -59.6900    0.0000  top
+R5        10K             R_0603_1608Metric     163.0935   -67.8180    0.0000  top
+R6        10K             R_0603_1608Metric     167.0290   -62.2700   90.0000  top
+R7        10K             R_0603_1608Metric     166.8115   -68.0000    0.0000  top
+R8        10K             R_0603_1608Metric     166.3115   -60.0000    0.0000  top
+R9        100ohm          R_0603_1608Metric     138.0585   -71.0800  180.0000  top
+R10       10K             R_0603_1608Metric     157.7085   -63.5000    0.0000  top
+R11       100ohm          R_0603_1608Metric     144.2975   -62.9920    0.0000  top
+U1        MIC5205-3.3YM5  SOT-23-5              144.4220   -68.6750    0.0000  top
 ## End

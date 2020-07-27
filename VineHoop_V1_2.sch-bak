@@ -29,10 +29,10 @@ F 7 "Atmel" H 8100 2900 50  0001 L BNN "Field7"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR022
+L power:GND #PWR030
 U 1 1 5F144579
 P 7200 4200
-F 0 "#PWR022" H 7200 3950 50  0001 C CNN
+F 0 "#PWR030" H 7200 3950 50  0001 C CNN
 F 1 "GND" H 7205 4027 50  0000 C CNN
 F 2 "" H 7200 4200 50  0001 C CNN
 F 3 "" H 7200 4200 50  0001 C CNN
@@ -288,37 +288,16 @@ Wire Wire Line
 Connection ~ 1400 2550
 Wire Wire Line
 	1400 2550 1400 2650
-$Comp
-L Device:Crystal Y1
-U 1 1 5F16990C
-P 1950 2300
-F 0 "Y1" V 1904 2431 50  0000 L CNN
-F 1 "32.768kHz" V 1995 2431 50  0000 L CNN
-F 2 "XTAL_FC-135R_32.7680KA-AG0:XTAL_FC-135R_32.7680KA-AG0" H 1950 2300 50  0001 C CNN
-F 3 "~" H 1950 2300 50  0001 C CNN
-	1    1950 2300
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1800 2050 1950 2050
-Wire Wire Line
-	1950 2050 1950 2150
-Wire Wire Line
-	1950 2450 1950 2550
-Wire Wire Line
-	1950 2550 1800 2550
 Wire Wire Line
 	4550 1500 5000 1500
 Wire Wire Line
 	2950 1400 1950 1400
 Wire Wire Line
 	1950 1400 1950 2050
-Connection ~ 1950 2050
-Wire Wire Line
-	1950 2550 5000 2550
 Wire Wire Line
 	5000 2550 5000 1500
-Connection ~ 1950 2550
 Text GLabel 1150 1800 0    50   Input ~ 0
 SENSOR_SDA
 Text GLabel 1150 1900 0    50   Input ~ 0
@@ -612,10 +591,10 @@ Wire Wire Line
 Wire Wire Line
 	1950 4050 1950 4150
 $Comp
-L power:+3V3 #PWR020
+L power:+3V3 #PWR028
 U 1 1 5F2169C5
 P 7150 1950
-F 0 "#PWR020" H 7150 1800 50  0001 C CNN
+F 0 "#PWR028" H 7150 1800 50  0001 C CNN
 F 1 "+3V3" H 7165 2123 50  0000 C CNN
 F 2 "" H 7150 1950 50  0001 C CNN
 F 3 "" H 7150 1950 50  0001 C CNN
@@ -649,10 +628,10 @@ SENSOR_SCL
 Wire Wire Line
 	8800 2400 8900 2400
 $Comp
-L Device:R_Small R9
+L Device:R_Small R10
 U 1 1 5F237554
 P 6850 3350
-F 0 "R9" V 6950 3350 50  0000 C CNN
+F 0 "R10" V 6950 3350 50  0000 C CNN
 F 1 "10K" V 7000 3350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 6850 3350 50  0001 C CNN
 F 3 "~" H 6850 3350 50  0001 C CNN
@@ -660,10 +639,10 @@ F 3 "~" H 6850 3350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3V3 #PWR019
+L power:+3V3 #PWR024
 U 1 1 5F23BCFD
 P 6850 3200
-F 0 "#PWR019" H 6850 3050 50  0001 C CNN
+F 0 "#PWR024" H 6850 3050 50  0001 C CNN
 F 1 "+3V3" H 6865 3373 50  0000 C CNN
 F 2 "" H 6850 3200 50  0001 C CNN
 F 3 "" H 6850 3200 50  0001 C CNN
@@ -682,10 +661,10 @@ Connection ~ 6850 3500
 Wire Wire Line
 	6850 3500 6650 3500
 $Comp
-L Device:C_Small C7
+L Device:C_Small C8
 U 1 1 5F24E6F1
 P 9650 3500
-F 0 "C7" V 9421 3500 50  0000 C CNN
+F 0 "C8" V 9421 3500 50  0000 C CNN
 F 1 "22pF" V 9512 3500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9650 3500 50  0001 C CNN
 F 3 "~" H 9650 3500 50  0001 C CNN
@@ -693,10 +672,10 @@ F 3 "~" H 9650 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C8
+L Device:C_Small C9
 U 1 1 5F24F705
 P 9650 3900
-F 0 "C8" V 9750 3900 50  0000 C CNN
+F 0 "C9" V 9750 3900 50  0000 C CNN
 F 1 "22pF" V 9800 3900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9650 3900 50  0001 C CNN
 F 3 "~" H 9650 3900 50  0001 C CNN
@@ -704,25 +683,14 @@ F 3 "~" H 9650 3900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR027
+L power:GND #PWR034
 U 1 1 5F250958
 P 9950 3950
-F 0 "#PWR027" H 9950 3700 50  0001 C CNN
+F 0 "#PWR034" H 9950 3700 50  0001 C CNN
 F 1 "GND" H 9955 3777 50  0000 C CNN
 F 2 "" H 9950 3950 50  0001 C CNN
 F 3 "" H 9950 3950 50  0001 C CNN
 	1    9950 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x06_Female J2
-U 1 1 5F267FE4
-P 9350 4700
-F 0 "J2" H 9378 4676 50  0000 L CNN
-F 1 "Conn_01x06_Female" H 9378 4585 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Right" H 9350 4700 50  0001 C CNN
-F 3 "~" H 9350 4700 50  0001 C CNN
-	1    9350 4700
 	1    0    0    -1  
 $EndComp
 Text GLabel 8900 2100 2    50   Input ~ 0
@@ -745,108 +713,6 @@ Wire Wire Line
 	8800 3300 8900 3300
 Wire Wire Line
 	8800 3200 8900 3200
-Text GLabel 9150 4900 0    50   Input ~ 0
-RESET
-Text GLabel 9150 4800 0    50   Input ~ 0
-SCK
-Text GLabel 9150 4700 0    50   Input ~ 0
-MOSI
-Text GLabel 9150 4600 0    50   Input ~ 0
-MISO
-$Comp
-L power:+3V3 #PWR025
-U 1 1 5F2866FD
-P 9050 4450
-F 0 "#PWR025" H 9050 4300 50  0001 C CNN
-F 1 "+3V3" H 9065 4623 50  0000 C CNN
-F 2 "" H 9050 4450 50  0001 C CNN
-F 3 "" H 9050 4450 50  0001 C CNN
-	1    9050 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9050 4450 9050 4500
-Wire Wire Line
-	9050 4500 9150 4500
-$Comp
-L power:GND #PWR026
-U 1 1 5F28B151
-P 9050 5050
-F 0 "#PWR026" H 9050 4800 50  0001 C CNN
-F 1 "GND" H 9055 4877 50  0000 C CNN
-F 2 "" H 9050 5050 50  0001 C CNN
-F 3 "" H 9050 5050 50  0001 C CNN
-	1    9050 5050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9150 5000 9050 5000
-Wire Wire Line
-	9050 5000 9050 5050
-$Comp
-L Connector:Conn_01x06_Female J1
-U 1 1 5F2964FE
-P 7700 4800
-F 0 "J1" H 7728 4776 50  0000 L CNN
-F 1 "Conn_01x06_Female" H 7728 4685 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Right" H 7700 4800 50  0001 C CNN
-F 3 "~" H 7700 4800 50  0001 C CNN
-	1    7700 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR024
-U 1 1 5F2984A6
-P 7350 5150
-F 0 "#PWR024" H 7350 4900 50  0001 C CNN
-F 1 "GND" H 7355 4977 50  0000 C CNN
-F 2 "" H 7350 5150 50  0001 C CNN
-F 3 "" H 7350 5150 50  0001 C CNN
-	1    7350 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 5100 7350 5100
-Wire Wire Line
-	7350 5100 7350 5150
-$Comp
-L power:VDD #PWR023
-U 1 1 5F29CD19
-P 7250 4850
-F 0 "#PWR023" H 7250 4700 50  0001 C CNN
-F 1 "VDD" H 7265 5023 50  0000 C CNN
-F 2 "" H 7250 4850 50  0001 C CNN
-F 3 "" H 7250 4850 50  0001 C CNN
-	1    7250 4850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7500 4900 7250 4900
-Wire Wire Line
-	7250 4900 7250 4850
-Text GLabel 7500 4800 0    50   Input ~ 0
-TX
-Text GLabel 7500 4700 0    50   Input ~ 0
-RX
-$Comp
-L 7A-16.000MAAE-T:7A-16.000MAAE-T Y2
-U 1 1 5F2BA0D6
-P 9250 3700
-F 0 "Y2" V 9204 3833 50  0000 L CNN
-F 1 "16MHz" V 9295 3833 50  0000 L CNN
-F 2 "7A-16.000MAAE-T:XTAL_7A-16.000MAAE-T" H 9250 3700 50  0001 L BNN
-F 3 "TXC" H 9250 3700 50  0001 L BNN
-F 4 "N/A" H 9250 3700 50  0001 L BNN "Field4"
-F 5 "Manufacturer recommendations" H 9250 3700 50  0001 L BNN "Field5"
-F 6 "1.35mm" H 9250 3700 50  0001 L BNN "Field6"
-	1    9250 3700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8800 3500 9250 3500
-Wire Wire Line
-	9250 3500 9550 3500
-Connection ~ 9250 3500
 Wire Wire Line
 	9750 3500 9950 3500
 Wire Wire Line
@@ -857,17 +723,12 @@ Connection ~ 9950 3900
 Wire Wire Line
 	9950 3900 9950 3950
 Wire Wire Line
-	9250 3900 9550 3900
-Wire Wire Line
 	8800 3600 8800 3900
-Wire Wire Line
-	8800 3900 9250 3900
-Connection ~ 9250 3900
 $Comp
-L Device:LED_Small D1
+L Device:LED_Small D2
 U 1 1 5F1784B8
 P 9500 2800
-F 0 "D1" V 9546 2730 50  0000 R CNN
+F 0 "D2" V 9546 2730 50  0000 R CNN
 F 1 "LED_Small" V 9455 2730 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" V 9500 2800 50  0001 C CNN
 F 3 "~" V 9500 2800 50  0001 C CNN
@@ -875,10 +736,10 @@ F 3 "~" V 9500 2800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R10
+L Device:R_Small R11
 U 1 1 5F17B602
 P 9200 2600
-F 0 "R10" V 9300 2600 50  0000 C CNN
+F 0 "R11" V 9300 2600 50  0000 C CNN
 F 1 "100ohm" V 9350 2600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 9200 2600 50  0001 C CNN
 F 3 "~" H 9200 2600 50  0001 C CNN
@@ -886,10 +747,10 @@ F 3 "~" H 9200 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR028
+L power:GND #PWR033
 U 1 1 5F17D1FF
 P 9500 2950
-F 0 "#PWR028" H 9500 2700 50  0001 C CNN
+F 0 "#PWR033" H 9500 2700 50  0001 C CNN
 F 1 "GND" H 9505 2777 50  0000 C CNN
 F 2 "" H 9500 2950 50  0001 C CNN
 F 3 "" H 9500 2950 50  0001 C CNN
@@ -913,55 +774,10 @@ Wire Wire Line
 Wire Wire Line
 	7400 3400 7300 3400
 $Comp
-L Connector:Conn_01x04_Female J3
-U 1 1 5F195DD2
-P 6250 4200
-F 0 "J3" H 6142 3775 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 6200 3850 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right" H 6250 4200 50  0001 C CNN
-F 3 "~" H 6250 4200 50  0001 C CNN
-	1    6250 4200
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR030
-U 1 1 5F199B7F
-P 6800 4300
-F 0 "#PWR030" H 6800 4050 50  0001 C CNN
-F 1 "GND" H 6805 4127 50  0000 C CNN
-F 2 "" H 6800 4300 50  0001 C CNN
-F 3 "" H 6800 4300 50  0001 C CNN
-	1    6800 4300
-	1    0    0    -1  
-$EndComp
-Text GLabel 6800 4100 2    50   Input ~ 0
-SDA
-Text GLabel 6800 4200 2    50   Input ~ 0
-SCL
-Wire Wire Line
-	6450 4000 6800 4000
-Wire Wire Line
-	6800 4100 6450 4100
-Wire Wire Line
-	6800 4200 6450 4200
-Wire Wire Line
-	6450 4300 6800 4300
-$Comp
-L power:VDD #PWR0101
-U 1 1 5F1B6E1A
-P 6800 4000
-F 0 "#PWR0101" H 6800 3850 50  0001 C CNN
-F 1 "VDD" H 6815 4173 50  0000 C CNN
-F 2 "" H 6800 4000 50  0001 C CNN
-F 3 "" H 6800 4000 50  0001 C CNN
-	1    6800 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0102
+L power:GND #PWR029
 U 1 1 5F20B544
 P 7200 2750
-F 0 "#PWR0102" H 7200 2500 50  0001 C CNN
+F 0 "#PWR029" H 7200 2500 50  0001 C CNN
 F 1 "GND" H 7205 2577 50  0000 C CNN
 F 2 "" H 7200 2750 50  0001 C CNN
 F 3 "" H 7200 2750 50  0001 C CNN
@@ -987,10 +803,10 @@ Connection ~ 7150 2200
 Wire Wire Line
 	6950 2600 6950 2650
 $Comp
-L power:GND #PWR021
+L power:GND #PWR025
 U 1 1 5F20F4F6
 P 6950 2650
-F 0 "#PWR021" H 6950 2400 50  0001 C CNN
+F 0 "#PWR025" H 6950 2400 50  0001 C CNN
 F 1 "GND" H 6955 2477 50  0000 C CNN
 F 2 "" H 6950 2650 50  0001 C CNN
 F 3 "" H 6950 2650 50  0001 C CNN
@@ -998,10 +814,10 @@ F 3 "" H 6950 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C6
+L Device:C_Small C7
 U 1 1 5F209B08
 P 6950 2500
-F 0 "C6" V 7050 2500 50  0000 C CNN
+F 0 "C7" V 7050 2500 50  0000 C CNN
 F 1 "0.1uF" V 6850 2500 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6950 2500 50  0001 C CNN
 F 3 "~" H 6950 2500 50  0001 C CNN
@@ -1009,10 +825,10 @@ F 3 "~" H 6950 2500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C9
+L Device:C_Small C6
 U 1 1 5F2348E8
 P 5150 1400
-F 0 "C9" V 5250 1400 50  0000 C CNN
+F 0 "C6" V 5250 1400 50  0000 C CNN
 F 1 "0.1uF" V 5050 1400 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5150 1400 50  0001 C CNN
 F 3 "~" H 5150 1400 50  0001 C CNN
@@ -1023,10 +839,10 @@ Wire Wire Line
 	4650 1300 5150 1300
 Connection ~ 4650 1300
 $Comp
-L power:GND #PWR029
+L power:GND #PWR020
 U 1 1 5F239CC8
 P 5150 1550
-F 0 "#PWR029" H 5150 1300 50  0001 C CNN
+F 0 "#PWR020" H 5150 1300 50  0001 C CNN
 F 1 "GND" H 5155 1377 50  0000 C CNN
 F 2 "" H 5150 1550 50  0001 C CNN
 F 3 "" H 5150 1550 50  0001 C CNN
@@ -1036,10 +852,10 @@ $EndComp
 Wire Wire Line
 	5150 1500 5150 1550
 $Comp
-L Device:LED_Small D?
+L Device:LED_Small D1
 U 1 1 5F254B2D
 P 5300 3500
-F 0 "D?" V 5346 3430 50  0000 R CNN
+F 0 "D1" V 5346 3430 50  0000 R CNN
 F 1 "LED_Small" V 5255 3430 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" V 5300 3500 50  0001 C CNN
 F 3 "~" V 5300 3500 50  0001 C CNN
@@ -1047,10 +863,10 @@ F 3 "~" V 5300 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R9
 U 1 1 5F25559F
 P 5300 3300
-F 0 "R?" V 5400 3300 50  0000 C CNN
+F 0 "R9" V 5400 3300 50  0000 C CNN
 F 1 "100ohm" V 5450 3350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 5300 3300 50  0001 C CNN
 F 3 "~" H 5300 3300 50  0001 C CNN
@@ -1058,10 +874,10 @@ F 3 "~" H 5300 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR022
 U 1 1 5F25699B
 P 5300 3600
-F 0 "#PWR?" H 5300 3350 50  0001 C CNN
+F 0 "#PWR022" H 5300 3350 50  0001 C CNN
 F 1 "GND" H 5305 3427 50  0000 C CNN
 F 2 "" H 5300 3600 50  0001 C CNN
 F 3 "" H 5300 3600 50  0001 C CNN
@@ -1069,14 +885,333 @@ F 3 "" H 5300 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR021
 U 1 1 5F2570CE
 P 5300 3200
-F 0 "#PWR?" H 5300 3050 50  0001 C CNN
+F 0 "#PWR021" H 5300 3050 50  0001 C CNN
 F 1 "+3V3" H 5315 3373 50  0000 C CNN
 F 2 "" H 5300 3200 50  0001 C CNN
 F 3 "" H 5300 3200 50  0001 C CNN
 	1    5300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6pin:20021121-00006C4LF J2
+U 1 1 5F1D0F04
+P 6700 5300
+F 0 "J2" H 6458 5665 50  0000 C CNN
+F 1 "20021121-00006C4LF" H 6458 5574 50  0000 C CNN
+F 2 "6pin:Amphenol_ICC___FCI-20021121-00006C4LF-MFG" H 6700 5800 50  0001 L CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/20021121.pdf" H 6700 5900 50  0001 L CNN
+F 4 "No" H 6700 6000 50  0001 L CNN "automotive"
+F 5 "Conn" H 6700 6100 50  0001 L CNN "category"
+F 6 "Gold" H 6700 6200 50  0001 L CNN "contact material"
+F 7 "1A" H 6700 6300 50  0001 L CNN "current rating"
+F 8 "Connectors" H 6700 6400 50  0001 L CNN "device class L1"
+F 9 "Headers and Wire Housings" H 6700 6500 50  0001 L CNN "device class L2"
+F 10 "unset" H 6700 6600 50  0001 L CNN "device class L3"
+F 11 "CONN HEADER SMD 6POS 1.27MM" H 6700 6700 50  0001 L CNN "digikey description"
+F 12 "609-3693-1-ND" H 6700 6800 50  0001 L CNN "digikey part number"
+F 13 "5.7mm" H 6700 6900 50  0001 L CNN "height"
+F 14 "yes" H 6700 7000 50  0001 L CNN "is connector"
+F 15 "yes" H 6700 7100 50  0001 L CNN "is male"
+F 16 "Yes" H 6700 7200 50  0001 L CNN "lead free"
+F 17 "53f828dc43fb73cb" H 6700 7300 50  0001 L CNN "library id"
+F 18 "Amphenol ICC / FCI" H 6700 7400 50  0001 L CNN "manufacturer"
+F 19 "Headers & Wire Housings 6P HDR UNSHRD 1.27x1.27MM BTB SMT" H 6700 7500 50  0001 L CNN "mouser description"
+F 20 "649-202112100006C4LF" H 6700 7600 50  0001 L CNN "mouser part number"
+F 21 "6" H 6700 7700 50  0001 L CNN "number of contacts"
+F 22 "2" H 6700 7800 50  0001 L CNN "number of rows"
+F 23 "HDR6" H 6700 7900 50  0001 L CNN "package"
+F 24 "1.27mm" H 6700 8000 50  0001 L CNN "pitch"
+F 25 "Yes" H 6700 8100 50  0001 L CNN "rohs"
+F 26 "+125°C" H 6700 8200 50  0001 L CNN "temperature range high"
+F 27 "-55°C" H 6700 8300 50  0001 L CNN "temperature range low"
+F 28 "125V" H 6700 8400 50  0001 L CNN "voltage rating"
+	1    6700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6pin:20021121-00006C4LF J2
+U 2 1 5F1D2FD2
+P 7200 5300
+F 0 "J2" H 6958 5665 50  0000 C CNN
+F 1 "20021121-00006C4LF" H 6958 5574 50  0000 C CNN
+F 2 "6pin:Amphenol_ICC___FCI-20021121-00006C4LF-MFG" H 7200 5800 50  0001 L CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/20021121.pdf" H 7200 5900 50  0001 L CNN
+F 4 "No" H 7200 6000 50  0001 L CNN "automotive"
+F 5 "Conn" H 7200 6100 50  0001 L CNN "category"
+F 6 "Gold" H 7200 6200 50  0001 L CNN "contact material"
+F 7 "1A" H 7200 6300 50  0001 L CNN "current rating"
+F 8 "Connectors" H 7200 6400 50  0001 L CNN "device class L1"
+F 9 "Headers and Wire Housings" H 7200 6500 50  0001 L CNN "device class L2"
+F 10 "unset" H 7200 6600 50  0001 L CNN "device class L3"
+F 11 "CONN HEADER SMD 6POS 1.27MM" H 7200 6700 50  0001 L CNN "digikey description"
+F 12 "609-3693-1-ND" H 7200 6800 50  0001 L CNN "digikey part number"
+F 13 "5.7mm" H 7200 6900 50  0001 L CNN "height"
+F 14 "yes" H 7200 7000 50  0001 L CNN "is connector"
+F 15 "yes" H 7200 7100 50  0001 L CNN "is male"
+F 16 "Yes" H 7200 7200 50  0001 L CNN "lead free"
+F 17 "53f828dc43fb73cb" H 7200 7300 50  0001 L CNN "library id"
+F 18 "Amphenol ICC / FCI" H 7200 7400 50  0001 L CNN "manufacturer"
+F 19 "Headers & Wire Housings 6P HDR UNSHRD 1.27x1.27MM BTB SMT" H 7200 7500 50  0001 L CNN "mouser description"
+F 20 "649-202112100006C4LF" H 7200 7600 50  0001 L CNN "mouser part number"
+F 21 "6" H 7200 7700 50  0001 L CNN "number of contacts"
+F 22 "2" H 7200 7800 50  0001 L CNN "number of rows"
+F 23 "HDR6" H 7200 7900 50  0001 L CNN "package"
+F 24 "1.27mm" H 7200 8000 50  0001 L CNN "pitch"
+F 25 "Yes" H 7200 8100 50  0001 L CNN "rohs"
+F 26 "+125°C" H 7200 8200 50  0001 L CNN "temperature range high"
+F 27 "-55°C" H 7200 8300 50  0001 L CNN "temperature range low"
+F 28 "125V" H 7200 8400 50  0001 L CNN "voltage rating"
+	2    7200 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 7100 5300 2    50   Input ~ 0
+RX
+Text GLabel 6600 5500 2    50   Input ~ 0
+TX
+$Comp
+L power:VDD #PWR026
+U 1 1 5F1DF88D
+P 7100 5500
+F 0 "#PWR026" H 7100 5350 50  0001 C CNN
+F 1 "VDD" H 7115 5673 50  0000 C CNN
+F 2 "" H 7100 5500 50  0001 C CNN
+F 3 "" H 7100 5500 50  0001 C CNN
+	1    7100 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 5F1E0062
+P 7100 5700
+F 0 "#PWR027" H 7100 5450 50  0001 C CNN
+F 1 "GND" H 7105 5527 50  0000 C CNN
+F 2 "" H 7100 5700 50  0001 C CNN
+F 3 "" H 7100 5700 50  0001 C CNN
+	1    7100 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ABS07-32.768KHZ-T:ABS07-32.768KHZ-T Y1
+U 1 1 5F1E5CD7
+P 1950 2300
+F 0 "Y1" V 1904 2400 50  0000 L CNN
+F 1 "ABS07-32.768KHZ-T" V 1995 2400 50  0000 L CNN
+F 2 "ABS07-32.768KHZ-T:XTAL_ABS07-32.768KHZ-T" H 1950 2300 50  0001 L BNN
+F 3 "08.19.15" H 1950 2300 50  0001 L BNN
+F 4 "Abracon" H 1950 2300 50  0001 L BNN "Field4"
+F 5 "Manufacturer Recommendation" H 1950 2300 50  0001 L BNN "Field5"
+	1    1950 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1800 2550 1950 2550
+Wire Wire Line
+	1950 2050 1950 2100
+Connection ~ 1950 2050
+Wire Wire Line
+	1950 2500 1950 2550
+Connection ~ 1950 2550
+Wire Wire Line
+	1950 2550 5000 2550
+$Comp
+L ABM10-16.000MHZ-E20-T:ABM10-16.000MHZ-E20-T Y2
+U 1 1 5F1F1E83
+P 10600 3700
+F 0 "Y2" H 10600 4167 50  0000 C CNN
+F 1 "ABM10-16.000MHZ-E20-T" H 10600 4076 50  0000 C CNN
+F 2 "ABM10-16.000MHZ-E20-T:XTAL250X200X50" H 10600 3700 50  0001 L BNN
+F 3 "Abracon" H 10600 3700 50  0001 L BNN
+	1    10600 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 3500 9350 3500
+Wire Wire Line
+	8800 3900 9350 3900
+Wire Wire Line
+	11000 3500 11000 3900
+$Comp
+L power:GND #PWR035
+U 1 1 5F1F8F57
+P 11000 3900
+F 0 "#PWR035" H 11000 3650 50  0001 C CNN
+F 1 "GND" H 11005 3727 50  0000 C CNN
+F 2 "" H 11000 3900 50  0001 C CNN
+F 3 "" H 11000 3900 50  0001 C CNN
+	1    11000 3900
+	1    0    0    -1  
+$EndComp
+Connection ~ 11000 3900
+Wire Wire Line
+	9350 3500 9350 3200
+Wire Wire Line
+	9350 3200 10050 3200
+Wire Wire Line
+	10050 3200 10050 3500
+Wire Wire Line
+	10050 3500 10200 3500
+Connection ~ 9350 3500
+Wire Wire Line
+	9350 3500 9550 3500
+Wire Wire Line
+	9350 3900 9350 4200
+Wire Wire Line
+	9350 4200 10100 4200
+Wire Wire Line
+	10100 4200 10100 3900
+Wire Wire Line
+	10100 3900 10200 3900
+Connection ~ 9350 3900
+Wire Wire Line
+	9350 3900 9550 3900
+$Comp
+L 95278-101A04LF:95278-101A04LF J1
+U 1 1 5F206E7D
+P 5000 4400
+F 0 "J1" H 5400 4665 50  0000 C CNN
+F 1 "95278-101A04LF" H 5400 4574 50  0000 C CNN
+F 2 "4pin:95278101A04LF" H 5650 4500 50  0001 L CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/95278.pdf" H 5650 4400 50  0001 L CNN
+F 4 "FCI,Header 4 way unshrouded FCI BergStik Series, Series Number 95278, 2.54mm Pitch 4 Way 2 Row Straight Header, SMT Termination, 3A" H 5650 4300 50  0001 L CNN "Description"
+F 5 "9.9" H 5650 4200 50  0001 L CNN "Height"
+F 6 "Amphenol" H 5650 4100 50  0001 L CNN "Manufacturer_Name"
+F 7 "95278-101A04LF" H 5650 4000 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "95278-101A04LF" H 5650 3900 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/95278-101a04lf/amphenol-fci" H 5650 3800 50  0001 L CNN "Arrow Price/Stock"
+F 10 "649-95278-101A04LF" H 5650 3700 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/95278-101A04LF?qs=AwD%252BQufC0y78m0ldYrE4wQ%3D%3D" H 5650 3600 50  0001 L CNN "Mouser Price/Stock"
+	1    5000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 5F208C16
+P 5000 4500
+F 0 "#PWR019" H 5000 4250 50  0001 C CNN
+F 1 "GND" H 5005 4327 50  0000 C CNN
+F 2 "" H 5000 4500 50  0001 C CNN
+F 3 "" H 5000 4500 50  0001 C CNN
+	1    5000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR023
+U 1 1 5F209127
+P 5800 4400
+F 0 "#PWR023" H 5800 4250 50  0001 C CNN
+F 1 "VDD" H 5815 4573 50  0000 C CNN
+F 2 "" H 5800 4400 50  0001 C CNN
+F 3 "" H 5800 4400 50  0001 C CNN
+	1    5800 4400
+	1    0    0    -1  
+$EndComp
+Text GLabel 5000 4400 0    50   Input ~ 0
+SCL
+Text GLabel 5800 4500 2    50   Input ~ 0
+SDA
+$Comp
+L 6pin:20021121-00006C4LF J3
+U 1 1 5F1BB66F
+P 8600 5750
+F 0 "J3" H 8358 6115 50  0000 C CNN
+F 1 "20021121-00006C4LF" H 8358 6024 50  0000 C CNN
+F 2 "6pin:Amphenol_ICC___FCI-20021121-00006C4LF-MFG" H 8600 6250 50  0001 L CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/20021121.pdf" H 8600 6350 50  0001 L CNN
+F 4 "No" H 8600 6450 50  0001 L CNN "automotive"
+F 5 "Conn" H 8600 6550 50  0001 L CNN "category"
+F 6 "Gold" H 8600 6650 50  0001 L CNN "contact material"
+F 7 "1A" H 8600 6750 50  0001 L CNN "current rating"
+F 8 "Connectors" H 8600 6850 50  0001 L CNN "device class L1"
+F 9 "Headers and Wire Housings" H 8600 6950 50  0001 L CNN "device class L2"
+F 10 "unset" H 8600 7050 50  0001 L CNN "device class L3"
+F 11 "CONN HEADER SMD 6POS 1.27MM" H 8600 7150 50  0001 L CNN "digikey description"
+F 12 "609-3693-1-ND" H 8600 7250 50  0001 L CNN "digikey part number"
+F 13 "5.7mm" H 8600 7350 50  0001 L CNN "height"
+F 14 "yes" H 8600 7450 50  0001 L CNN "is connector"
+F 15 "yes" H 8600 7550 50  0001 L CNN "is male"
+F 16 "Yes" H 8600 7650 50  0001 L CNN "lead free"
+F 17 "53f828dc43fb73cb" H 8600 7750 50  0001 L CNN "library id"
+F 18 "Amphenol ICC / FCI" H 8600 7850 50  0001 L CNN "manufacturer"
+F 19 "Headers & Wire Housings 6P HDR UNSHRD 1.27x1.27MM BTB SMT" H 8600 7950 50  0001 L CNN "mouser description"
+F 20 "649-202112100006C4LF" H 8600 8050 50  0001 L CNN "mouser part number"
+F 21 "6" H 8600 8150 50  0001 L CNN "number of contacts"
+F 22 "2" H 8600 8250 50  0001 L CNN "number of rows"
+F 23 "HDR6" H 8600 8350 50  0001 L CNN "package"
+F 24 "1.27mm" H 8600 8450 50  0001 L CNN "pitch"
+F 25 "Yes" H 8600 8550 50  0001 L CNN "rohs"
+F 26 "+125°C" H 8600 8650 50  0001 L CNN "temperature range high"
+F 27 "-55°C" H 8600 8750 50  0001 L CNN "temperature range low"
+F 28 "125V" H 8600 8850 50  0001 L CNN "voltage rating"
+	1    8600 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6pin:20021121-00006C4LF J3
+U 2 1 5F1BC62E
+P 9550 5750
+F 0 "J3" H 9308 6115 50  0000 C CNN
+F 1 "20021121-00006C4LF" H 9308 6024 50  0000 C CNN
+F 2 "6pin:Amphenol_ICC___FCI-20021121-00006C4LF-MFG" H 9550 6250 50  0001 L CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/20021121.pdf" H 9550 6350 50  0001 L CNN
+F 4 "No" H 9550 6450 50  0001 L CNN "automotive"
+F 5 "Conn" H 9550 6550 50  0001 L CNN "category"
+F 6 "Gold" H 9550 6650 50  0001 L CNN "contact material"
+F 7 "1A" H 9550 6750 50  0001 L CNN "current rating"
+F 8 "Connectors" H 9550 6850 50  0001 L CNN "device class L1"
+F 9 "Headers and Wire Housings" H 9550 6950 50  0001 L CNN "device class L2"
+F 10 "unset" H 9550 7050 50  0001 L CNN "device class L3"
+F 11 "CONN HEADER SMD 6POS 1.27MM" H 9550 7150 50  0001 L CNN "digikey description"
+F 12 "609-3693-1-ND" H 9550 7250 50  0001 L CNN "digikey part number"
+F 13 "5.7mm" H 9550 7350 50  0001 L CNN "height"
+F 14 "yes" H 9550 7450 50  0001 L CNN "is connector"
+F 15 "yes" H 9550 7550 50  0001 L CNN "is male"
+F 16 "Yes" H 9550 7650 50  0001 L CNN "lead free"
+F 17 "53f828dc43fb73cb" H 9550 7750 50  0001 L CNN "library id"
+F 18 "Amphenol ICC / FCI" H 9550 7850 50  0001 L CNN "manufacturer"
+F 19 "Headers & Wire Housings 6P HDR UNSHRD 1.27x1.27MM BTB SMT" H 9550 7950 50  0001 L CNN "mouser description"
+F 20 "649-202112100006C4LF" H 9550 8050 50  0001 L CNN "mouser part number"
+F 21 "6" H 9550 8150 50  0001 L CNN "number of contacts"
+F 22 "2" H 9550 8250 50  0001 L CNN "number of rows"
+F 23 "HDR6" H 9550 8350 50  0001 L CNN "package"
+F 24 "1.27mm" H 9550 8450 50  0001 L CNN "pitch"
+F 25 "Yes" H 9550 8550 50  0001 L CNN "rohs"
+F 26 "+125°C" H 9550 8650 50  0001 L CNN "temperature range high"
+F 27 "-55°C" H 9550 8750 50  0001 L CNN "temperature range low"
+F 28 "125V" H 9550 8850 50  0001 L CNN "voltage rating"
+	2    9550 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR031
+U 1 1 5F1BDDF8
+P 8500 5750
+F 0 "#PWR031" H 8500 5600 50  0001 C CNN
+F 1 "+3V3" H 8515 5923 50  0000 C CNN
+F 2 "" H 8500 5750 50  0001 C CNN
+F 3 "" H 8500 5750 50  0001 C CNN
+	1    8500 5750
+	1    0    0    -1  
+$EndComp
+Text GLabel 9450 5750 2    50   Input ~ 0
+MISO
+Text GLabel 8500 5950 2    50   Input ~ 0
+MOSI
+Text GLabel 9450 5950 2    50   Input ~ 0
+SCK
+Text GLabel 8500 6150 2    50   Input ~ 0
+RESET
+$Comp
+L power:GND #PWR032
+U 1 1 5F1BE7F4
+P 9450 6150
+F 0 "#PWR032" H 9450 5900 50  0001 C CNN
+F 1 "GND" H 9455 5977 50  0000 C CNN
+F 2 "" H 9450 6150 50  0001 C CNN
+F 3 "" H 9450 6150 50  0001 C CNN
+	1    9450 6150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

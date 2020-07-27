@@ -1,23 +1,133 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 7A-16.000MAAE-T_7A-16.000MAAE-T
+# 6pin_20021121-00006C4LF
 #
-DEF 7A-16.000MAAE-T_7A-16.000MAAE-T Y 0 40 N N 1 L N
-F0 "Y" -200 150 50 H V L BNN
-F1 "7A-16.000MAAE-T_7A-16.000MAAE-T" -201 -201 50 H V L BNN
-F2 "XTAL_7A-16.000MAAE-T" 0 0 50 H I L BNN
-F3 "TXC" 0 0 50 H I L BNN
-F4 "N/A" 0 0 50 H I L BNN
-F5 "Manufacturer recommendations" 0 0 50 H I L BNN
-F6 "1.35mm" 0 0 50 H I L BNN
+DEF 6pin_20021121-00006C4LF J 0 0 Y Y 2 L N
+F0 "J" 0 300 50 H V L CNN
+F1 "6pin_20021121-00006C4LF" 0 400 50 H V L CNN
+F2 "Amphenol_ICC___FCI-20021121-00006C4LF-*" 0 500 50 H I L CNN
+F3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/20021121.pdf" 0 600 50 H I L CNN
+F4 "No" 0 700 50 H I L CNN "automotive"
+F5 "Conn" 0 800 50 H I L CNN "category"
+F6 "Gold" 0 900 50 H I L CNN "contact material"
+F7 "1A" 0 1000 50 H I L CNN "current rating"
+F8 "Connectors" 0 1100 50 H I L CNN "device class L1"
+F9 "Headers and Wire Housings" 0 1200 50 H I L CNN "device class L2"
+F10 "unset" 0 1300 50 H I L CNN "device class L3"
+F11 "CONN HEADER SMD 6POS 1.27MM" 0 1400 50 H I L CNN "digikey description"
+F12 "609-3693-1-ND" 0 1500 50 H I L CNN "digikey part number"
+F13 "5.7mm" 0 1600 50 H I L CNN "height"
+F14 "yes" 0 1700 50 H I L CNN "is connector"
+F15 "yes" 0 1800 50 H I L CNN "is male"
+F16 "Yes" 0 1900 50 H I L CNN "lead free"
+F17 "53f828dc43fb73cb" 0 2000 50 H I L CNN "library id"
+F18 "Amphenol ICC / FCI" 0 2100 50 H I L CNN "manufacturer"
+F19 "Headers & Wire Housings 6P HDR UNSHRD 1.27x1.27MM BTB SMT" 0 2200 50 H I L CNN "mouser description"
+F20 "649-202112100006C4LF" 0 2300 50 H I L CNN "mouser part number"
+F21 "6" 0 2400 50 H I L CNN "number of contacts"
+F22 "2" 0 2500 50 H I L CNN "number of rows"
+F23 "HDR6" 0 2600 50 H I L CNN "package"
+F24 "1.27mm" 0 2700 50 H I L CNN "pitch"
+F25 "Yes" 0 2800 50 H I L CNN "rohs"
+F26 "+125°C" 0 2900 50 H I L CNN "temperature range high"
+F27 "-55°C" 0 3000 50 H I L CNN "temperature range low"
+F28 "125V" 0 3100 50 H I L CNN "voltage rating"
 DRAW
-P 2 0 0 16 -92 100 -92 -100 N
-P 2 0 0 16 -55 100 -55 -100 N
-P 2 0 0 16 -55 100 55 100 N
-P 2 0 0 16 55 -100 -55 -100 N
-P 2 0 0 16 55 100 55 -100 N
-P 2 0 0 16 92 100 92 -100 N
+S -400 200 -200 -600 1 1 0 f
+S -350 -380 -280 -420 1 1 0 F
+S -350 -180 -280 -220 1 1 0 F
+S -350 20 -280 -20 1 1 0 F
+S -400 200 -200 -600 2 1 0 f
+S -350 -380 -280 -420 2 1 0 F
+S -350 -180 -280 -220 2 1 0 F
+S -350 20 -280 -20 2 1 0 F
+P 2 1 1 0 -270 -400 -200 -400 N
+P 2 1 1 0 -270 -200 -200 -200 N
+P 2 1 1 0 -270 0 -200 0 N
+P 2 2 1 0 -270 -400 -200 -400 N
+P 2 2 1 0 -270 -200 -200 -200 N
+P 2 2 1 0 -270 0 -200 0 N
+X 1 1 -100 0 100 L 40 40 1 1 P
+X 3 3 -100 -200 100 L 40 40 1 1 P
+X 5 5 -100 -400 100 L 40 40 1 1 P
+X 2 2 -100 0 100 L 40 40 2 1 P
+X 4 4 -100 -200 100 L 40 40 2 1 P
+X 6 6 -100 -400 100 L 40 40 2 1 P
+ENDDRAW
+ENDDEF
+#
+# 95278-101A04LF_95278-101A04LF
+#
+DEF 95278-101A04LF_95278-101A04LF J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "95278-101A04LF_95278-101A04LF" 650 200 50 H V L CNN
+F2 "95278101A04LF" 650 100 50 H I L CNN
+F3 "http://portal.fciconnect.com/Comergent//fci/drawing/95278.pdf" 650 0 50 H I L CNN
+F4 "FCI,Header 4 way unshrouded FCI BergStik Series, Series Number 95278, 2.54mm Pitch 4 Way 2 Row Straight Header, SMT Termination, 3A" 650 -100 50 H I L CNN "Description"
+F5 "9.9" 650 -200 50 H I L CNN "Height"
+F6 "Amphenol" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "95278-101A04LF" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "95278-101A04LF" 650 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/95278-101a04lf/amphenol-fci" 650 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "649-95278-101A04LF" 650 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/95278-101A04LF?qs=AwD%252BQufC0y78m0ldYrE4wQ%3D%3D" 650 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 0 0 200 R 50 50 0 0 P
+X 3 3 800 -100 200 L 50 50 0 0 P
+X 4 4 800 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ABM10-16.000MHZ-E20-T_ABM10-16.000MHZ-E20-T
+#
+DEF ABM10-16.000MHZ-E20-T_ABM10-16.000MHZ-E20-T Y 0 40 Y Y 1 L N
+F0 "Y" -301 301 50 H V L BNN
+F1 "ABM10-16.000MHZ-E20-T_ABM10-16.000MHZ-E20-T" -300 -401 50 H V L BNN
+F2 "XTAL250X200X50" 0 0 50 H I L BNN
+F3 "Abracon" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -300 -300 300 -300 N
+P 2 0 0 10 -300 300 -300 -300 N
+P 2 0 0 4 30 50 70 50 N
+P 2 0 0 4 70 50 70 15 N
+P 2 0 0 4 70 50 70 85 N
+P 2 0 0 4 90 25 90 75 N
+P 2 0 0 4 90 75 110 75 N
+P 2 0 0 4 110 25 90 25 N
+P 2 0 0 4 110 75 110 25 N
+P 2 0 0 4 130 50 130 15 N
+P 2 0 0 4 130 50 130 85 N
+P 2 0 0 4 170 50 130 50 N
+P 2 0 0 10 300 -300 300 300 N
+P 2 0 0 10 300 300 -300 300 N
+X XTAL@1 1 -400 200 100 R 40 40 0 0 P
+X 2 2 400 200 100 L 40 40 0 0 W
+X XTAL@2 3 -400 -200 100 R 40 40 0 0 P
+X 4 4 400 -200 100 L 40 40 0 0 W
+ENDDRAW
+ENDDEF
+#
+# ABS07-32.768KHZ-T_ABS07-32.768KHZ-T
+#
+DEF ABS07-32.768KHZ-T_ABS07-32.768KHZ-T Y 0 40 N N 1 L N
+F0 "Y" -190 100 50 H V L BNN
+F1 "ABS07-32.768KHZ-T_ABS07-32.768KHZ-T" -190 -160 50 H V L BNN
+F2 "XTAL_ABS07-32.768KHZ-T" 0 0 50 H I L BNN
+F3 "08.19.15" 0 0 50 H I L BNN
+F4 "Abracon" 0 0 50 H I L BNN
+F5 "Manufacturer Recommendation" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 6 -100 0 -40 0 N
+P 2 0 0 10 -40 70 -40 -70 N
+P 2 0 0 10 -15 -60 15 -60 N
+P 2 0 0 10 -15 60 -15 -60 N
+P 2 0 0 10 15 -60 15 60 N
+P 2 0 0 10 15 60 -15 60 N
+P 2 0 0 6 40 0 100 0 N
+P 2 0 0 10 40 70 40 -70 N
 X ~ 1 -200 0 100 R 40 40 0 0 P
 X ~ 2 200 0 100 L 40 40 0 0 P
 ENDDRAW
@@ -109,64 +219,6 @@ X CAP 9 -800 -600 200 R 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_01x04_Female
-#
-DEF Connector_Conn_01x04_Female J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Conn_01x04_Female" 0 -300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-A 0 -200 20 901 -901 1 1 6 N 0 -180 0 -220
-A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
-A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
-A 0 100 20 901 -901 1 1 6 N 0 120 0 80
-P 2 1 1 6 -50 -200 -20 -200 N
-P 2 1 1 6 -50 -100 -20 -100 N
-P 2 1 1 6 -50 0 -20 0 N
-P 2 1 1 6 -50 100 -20 100 N
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-X Pin_4 4 -200 -200 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Conn_01x06_Female
-#
-DEF Connector_Conn_01x06_Female J 0 40 Y N 1 F N
-F0 "J" 0 300 50 H V C CNN
-F1 "Connector_Conn_01x06_Female" 0 -400 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-A 0 -300 20 901 -901 1 1 6 N 0 -280 0 -320
-A 0 -200 20 901 -901 1 1 6 N 0 -180 0 -220
-A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
-A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
-A 0 100 20 901 -901 1 1 6 N 0 120 0 80
-A 0 200 20 901 -901 1 1 6 N 0 220 0 180
-P 2 1 1 6 -50 -300 -20 -300 N
-P 2 1 1 6 -50 -200 -20 -200 N
-P 2 1 1 6 -50 -100 -20 -100 N
-P 2 1 1 6 -50 0 -20 0 N
-P 2 1 1 6 -50 100 -20 100 N
-P 2 1 1 6 -50 200 -20 200 N
-X Pin_1 1 -200 200 150 R 50 50 1 1 P
-X Pin_2 2 -200 100 150 R 50 50 1 1 P
-X Pin_3 3 -200 0 150 R 50 50 1 1 P
-X Pin_4 4 -200 -100 150 R 50 50 1 1 P
-X Pin_5 5 -200 -200 150 R 50 50 1 1 P
-X Pin_6 6 -200 -300 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_C_Small
 #
 DEF Device_C_Small C 0 10 N N 1 F N
@@ -182,27 +234,6 @@ P 2 0 1 13 -60 -20 60 -20 N
 P 2 0 1 12 -60 20 60 20 N
 X ~ 1 0 100 80 D 50 50 1 1 P
 X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Crystal
-#
-DEF Device_Crystal Y 0 40 N N 1 F N
-F0 "Y" 0 150 50 H V C CNN
-F1 "Device_Crystal" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Crystal*
-$ENDFPLIST
-DRAW
-S -45 100 45 -100 0 1 12 N
-P 2 0 1 0 -100 0 -75 0 N
-P 2 0 1 20 -75 -50 -75 50 N
-P 2 0 1 20 75 -50 75 50 N
-P 2 0 1 0 100 0 75 0 N
-X 1 1 -150 0 50 R 50 50 1 1 P
-X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
