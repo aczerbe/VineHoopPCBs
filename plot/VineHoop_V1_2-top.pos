@@ -1,12 +1,12 @@
-### Module positions - created on Friday, July 24, 2020 at 04:10:01 PM ###
-### Printed by Pcbnew version kicad (5.1.6-0-10_14)
+### Module positions - created on Wednesday, July 29, 2020 at 07:24:19 PM ###
+### Printed by Pcbnew version (5.99.0-2415-gbbdd3fce7)
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val             Package                   PosX       PosY       Rot  Side
-C1        22pF            C_0603_1608Metric     160.0040   -68.3900  270.0000  top
+C1        22pF            C_0603_1608Metric     160.0040   -68.3900  -90.0000  top
 C2        22pF            C_0603_1608Metric     160.0040   -64.5800   90.0000  top
 C3        10uF            C_0603_1608Metric     141.1200   -69.3100   90.0000  top
-C4        0.1uF           C_0603_1608Metric     166.7700   -65.4665  270.0000  top
+C4        0.1uF           C_0603_1608Metric     166.7700   -65.4665  -90.0000  top
 C5        10uF            C_0603_1608Metric     144.6150   -65.9130  180.0000  top
 C6        0.1uF           C_0603_1608Metric     162.9410   -69.7230  180.0000  top
 C7        0.1uF           C_0603_1608Metric     149.8345   -66.8020  180.0000  top
@@ -14,7 +14,7 @@ C8        22pF            C_0603_1608Metric     146.8375   -58.9280  180.0000  t
 C9        22pF            C_0603_1608Metric     138.6585   -60.4520    0.0000  top
 D1        LED_Small       LED_0603_1608Metric   134.0485   -71.1200    0.0000  top
 D2        LED_Small       LED_0603_1608Metric   140.9445   -62.9920    0.0000  top
-J1        95278-101A04LF  95278101A04LF         173.6720   -61.2140  270.0000  top
+J1        95278-101A04LF  95278101A04LF         173.6720   -61.2140  -90.0000  top
 R1        10K             R_0603_1608Metric     159.5375   -61.9760  180.0000  top
 R2        10K             R_0603_1608Metric     148.0565   -69.0880    0.0000  top
 R3        10K             R_0603_1608Metric     155.2365   -66.0000  180.0000  top

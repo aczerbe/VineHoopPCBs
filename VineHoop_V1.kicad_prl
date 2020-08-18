@@ -48,12 +48,16 @@
       28,
       29,
       30,
-      31
+      31,
+      32,
+      33,
+      34,
+      35
     ],
-    "visible_layers": "1ffff_00000001"
+    "visible_layers": "7ffff_ffffffff"
   },
   "meta": {
-    "filename": "VineHoop_V1_2.kicad_prl",
+    "filename": "VineHoop_V1.kicad_prl",
     "version": 1
   }
 }

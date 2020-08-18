@@ -37,7 +37,7 @@
         "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -83,8 +83,6 @@
         "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
-      "rule_severitieslegacy_courtyards_overlap": true,
-      "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
@@ -104,12 +102,19 @@
         "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
+        0.25,
         0.1524,
         0.254,
+        0.381,
         0.508,
+        0.762,
         1.524
       ],
       "via_dimensions": [
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        },
         {
           "diameter": 0.6604,
           "drill": 0.3302
@@ -299,35 +304,22 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "VineHoop_V1_2.kicad_pro",
+    "filename": "VineHoop_Islands.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
-        "clearance": 0.1524,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
-        "track_width": 0.1524,
-        "via_diameter": 0.6604,
-        "via_drill": 0.3302
-      },
-      {
-        "clearance": 0.508,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Power",
-        "nets": [],
-        "track_width": 0.508,
-        "via_diameter": 0.6604,
-        "via_drill": 0.3302
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4
       }
     ],
     "meta": {
@@ -371,7 +363,7 @@
   },
   "sheets": [
     [
-      "b72d2c6c-a2b3-41b1-b6c7-53dccb7e9fe0",
+      "0919b034-63e8-4e74-8852-9d14ef4bc8f8",
       ""
     ]
   ],
