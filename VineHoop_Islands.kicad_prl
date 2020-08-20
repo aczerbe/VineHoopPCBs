@@ -28,7 +28,6 @@
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -54,7 +53,7 @@
       34,
       35
     ],
-    "visible_layers": "5ffdf_7fffffff"
+    "visible_layers": "5feff_7fffffff"
   },
   "meta": {
     "filename": "VineHoop_Islands.kicad_prl",
