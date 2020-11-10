@@ -28,7 +28,6 @@
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -48,13 +47,9 @@
       28,
       29,
       30,
-      31,
-      32,
-      33,
-      34,
-      35
+      31
     ],
-    "visible_layers": "7ffff_ffffffff"
+    "visible_layers": "1ffdf_80000001"
   },
   "meta": {
     "filename": "VineHoop_V1.kicad_prl",

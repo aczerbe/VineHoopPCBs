@@ -1,0 +1,43 @@
+### Module positions - created on Friday, October 16, 2020 at 02:12:31 PM ###
+### Printed by Pcbnew version (5.99.0-2415-gbbdd3fce7)
+## Unit = inches, Angle = deg.
+## Side : top
+# Ref     Val                 Package                                         PosX       PosY       Rot  Side
+C1        22pF                C_0603_1608Metric                             7.6431    -2.3890    0.0000  top
+C2        22pF                C_0603_1608Metric                             7.4931    -2.3890  180.0000  top
+C3        10uF                C_0603_1608Metric                             4.9764    -2.4811  -90.0000  top
+C4        0.1uF               C_0603_1608Metric                             7.5280    -2.1226    0.0000  top
+C5        10uF                C_0603_1608Metric                             5.2559    -2.4989  -90.0000  top
+C6        0.1uF               C_0603_1608Metric                             7.6574    -2.2914  180.0000  top
+C7        0.1uF               C_0603_1608Metric                             6.4578    -2.0667    0.0000  top
+C8        0.1uF               C_0603_1608Metric                             8.7031    -2.3846  180.0000  top
+C9        10uF                C_0603_1608Metric                             8.7028    -2.4913    0.0000  top
+D1        LED_Small           LED_0603_1608Metric                           5.0031    -2.3307    0.0000  top
+D2        LED_Small           LED_0603_1608Metric                           6.1297    -2.0574    0.0000  top
+J1        95278-101A04LF      95278101A04LF                                 5.1197    -2.1609  -90.0000  top
+J2        20021121-00006C4LF  Amphenol_ICC___FCI-20021121-00006C4LF-MFG     6.1288    -2.2567    0.0000  top
+R1        10K                 R_0603_1608Metric                             7.3906    -2.4073  -90.0000  top
+R2        10K                 R_0603_1608Metric                             8.4956    -2.2772   90.0000  top
+R3        10K                 R_0603_1608Metric                             8.7515    -2.2757   90.0000  top
+R4        10K                 R_0603_1608Metric                             7.3006    -2.2894  -90.0000  top
+R5        10K                 R_0603_1608Metric                             7.6634    -2.2254    0.0000  top
+R6        10K                 R_0603_1608Metric                             7.4022    -2.1124  180.0000  top
+R7        10K                 R_0603_1608Metric                             7.6278    -2.1210   90.0000  top
+R8        10K                 R_0603_1608Metric                             7.2988    -2.1639   90.0000  top
+R9        100ohm              R_0603_1608Metric                             5.1471    -2.3307  180.0000  top
+R10       10K                 R_0603_1608Metric                             6.3898    -2.4734    0.0000  top
+R11       100ohm              R_0603_1608Metric                             6.2738    -2.0584    0.0000  top
+R12       10K                 R_0603_1608Metric                             5.1823    -3.1575  180.0000  top
+R13       10K                 R_0603_1608Metric                             6.2107    -3.1551    0.0000  top
+R14       10K                 R_0603_1608Metric                             7.4271    -3.1573    0.0000  top
+R15       10K                 R_0603_1608Metric                             8.5471    -3.1575    0.0000  top
+TH1       10K                 R_0603_1608Metric                             5.0524    -3.1575    0.0000  top
+TH2       10K                 R_0603_1608Metric                             6.3360    -3.1542  180.0000  top
+TH3       10K                 R_0603_1608Metric                             7.5536    -3.1567  180.0000  top
+TH4       10K                 R_0603_1608Metric                             8.6736    -3.1579  180.0000  top
+U1        MIC5205-3.3YM5      SOT-23-5                                      5.1315    -2.4462    0.0000  top
+U2        SHT31-DIS-B         XDCR_SHT31-DIS-F2.5KS                         8.6211    -2.2766    0.0000  top
+U3        BNO055              LGA28R50P4X10_380X520X100                     7.4665    -2.2480  180.0000  top
+U4        ATMEGA328P-MUR      QFN50P500X500X100-33N                         6.3688    -2.2567  180.0000  top
+Y1        ABS07-32.768KHZ-T   XTAL_ABS07-32.768KHZ-T                        7.5814    -2.4683  180.0000  top
+## End

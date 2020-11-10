@@ -1,0 +1,5 @@
+09-21 23:52:45 place_footprints.action_place_footprints 414:Plugin executed on: 'darwin'
+09-21 23:52:45 place_footprints.action_place_footprints 415:Plugin executed with python version: '2.7.16 (default, Jul 26 2020, 16:38:02) \n[GCC 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4)]'
+09-21 23:52:45 place_footprints.action_place_footprints 416:KiCad build version: (5.99.0-2415-gbbdd3fce7)
+09-21 23:52:45 place_footprints.action_place_footprints 417:Place footprints plugin version: 54 started
+09-21 23:52:49 place_footprints.place_footprints 213:getting project hierarchy from schematics

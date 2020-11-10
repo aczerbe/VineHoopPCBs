@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Sensor_Gas")(type "KiCad")(uri "${KIPRJMOD}/Sensor_Gas.kicad_sym")(options "")(descr ""))
+)

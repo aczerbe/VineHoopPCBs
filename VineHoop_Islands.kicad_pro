@@ -37,7 +37,7 @@
         "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.254
+          "min_clearance": 0.15239999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -310,7 +310,7 @@
   "net_settings": {
     "classes": [
       {
-        "clearance": 0.2,
+        "clearance": 0.1524,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -333,7 +333,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../Downloads/VineHoop_Islands.stp",
       "vmrl": ""
     },
     "page_layout_descr_file": ""
@@ -363,7 +363,7 @@
   },
   "sheets": [
     [
-      "8f337835-d2a4-4df0-b83d-bd70820495cf",
+      "86692cf9-a2f3-4723-b1c7-bb307b20b2d9",
       ""
     ]
   ],
